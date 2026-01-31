@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "description": "Unified AI CLI wrapper for multiple backends",
+    "homepage": "https://github.com/signalridge/clinvoker",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/signalridge/clinvoker/releases/download/v0.2.0/clinvoker_0.2.0_windows_amd64.zip",
+            "hash": "af550d1c4e956509bd96c6ce5d8186b68ee04da514dd2bca024fd09c238e9ce2"
+        },
+        "arm64": {
+            "url": "https://github.com/signalridge/clinvoker/releases/download/v0.2.0/clinvoker_0.2.0_windows_arm64.zip",
+            "hash": "87d87baa423f61e66be9e8679cfce4f68598ed141b5c7907e1f2354af6850abb"
+        }
+    },
+    "bin": "clinvk.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/signalridge/clinvoker/releases/download/v$version/clinvoker_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/signalridge/clinvoker/releases/download/v$version/clinvoker_$version_windows_arm64.zip"
+            }
+        }
+    }
+}
