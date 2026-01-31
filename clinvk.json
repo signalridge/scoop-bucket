@@ -6,14 +6,14 @@
             "bin": [
                 "clinvk.exe"
             ],
-            "hash": "ffe4f5bc0eb908294f8c58dc4aa5c93ad70fc594866fa811a64d295939b5c9d8"
+            "hash": "479f1e9567032ed8df762ea1657f6526108ff2b9bbff417ecdea338fce27c878"
         },
         "arm64": {
             "url": "https://github.com/signalridge/clinvoker/releases/download/v0.2.0/clinvoker_0.2.0_windows_arm64.zip",
             "bin": [
                 "clinvk.exe"
             ],
-            "hash": "2b939c4f22619ab88ffee6d10d0cd4b86a0e93b2acece80de8c1291fe504148e"
+            "hash": "3839cccf23319293bd4c4f5f4338aa19249663579797c41edf77e853f4ca67aa"
         }
     },
     "homepage": "https://github.com/signalridge/clinvoker",
