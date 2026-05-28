@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/signalridge/slipway/releases/download/v0.1.0/slipway_0.1.0_windows_amd64.zip",
+            "bin": [
+                "slipway.exe"
+            ],
+            "hash": "31d70d9c688d22e1415d3d24ff2593805a65729fc580e5ab3bb7f958ef4b11a3"
+        },
+        "arm64": {
+            "url": "https://github.com/signalridge/slipway/releases/download/v0.1.0/slipway_0.1.0_windows_arm64.zip",
+            "bin": [
+                "slipway.exe"
+            ],
+            "hash": "fc4ea8b01b0036dcca1b500004c2283e5cf8465cd38715530dd13dccfe6b877e"
+        }
+    },
+    "homepage": "https://github.com/signalridge/slipway",
+    "license": "UNLICENSED",
+    "description": "Governance CLI for AI-assisted software delivery"
+}
