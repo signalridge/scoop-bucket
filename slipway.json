@@ -6,14 +6,14 @@
             "bin": [
                 "slipway.exe"
             ],
-            "hash": "e37a5897448b75963501eba64a12f37d4506606e5638ac4bab407e3a15f731e9"
+            "hash": "0ced2e8c54d304463fb52715e38e0e1ad600bbb79e3513e96aa588a32522067e"
         },
         "arm64": {
             "url": "https://github.com/signalridge/slipway/releases/download/v0.1.0/slipway_0.1.0_windows_arm64.zip",
             "bin": [
                 "slipway.exe"
             ],
-            "hash": "8180c144aa8a68a89ee527c1a273fe702275849fd9221d88fd369b3e765bd38e"
+            "hash": "c49ac7ed7302218af1ef9a0006a8f21996c65a7d245a5eb93f74f6c4e772dd77"
         }
     },
     "homepage": "https://github.com/signalridge/slipway",
