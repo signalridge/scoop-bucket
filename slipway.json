@@ -1,19 +1,19 @@
 {
-    "version": "0.31.0",
+    "version": "0.31.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/signalridge/slipway/releases/download/v0.31.0/slipway_0.31.0_windows_amd64.zip",
+            "url": "https://github.com/signalridge/slipway/releases/download/v0.31.1/slipway_0.31.1_windows_amd64.zip",
             "bin": [
                 "slipway.exe"
             ],
-            "hash": "c8c77f5a985b7293a3826e010a0292490949a7d9d3ba4e3f9765aa2e381ede59"
+            "hash": "ff1fb63f974da5f0b8173e27251d0ae11b9b8643c04f17f616c5bf2c0c50a89e"
         },
         "arm64": {
-            "url": "https://github.com/signalridge/slipway/releases/download/v0.31.0/slipway_0.31.0_windows_arm64.zip",
+            "url": "https://github.com/signalridge/slipway/releases/download/v0.31.1/slipway_0.31.1_windows_arm64.zip",
             "bin": [
                 "slipway.exe"
             ],
-            "hash": "fd70aab5ea1542290efc2967f0e6623db0f36b2fcd1c2c0ee63f71dd915f5ea6"
+            "hash": "31e242ece0ccfcc35e90ca93bf6535c0079213a8117b10b100e6c238da7307f5"
         }
     },
     "homepage": "https://github.com/signalridge/slipway",
