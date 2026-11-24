@@ -1,0 +1,37 @@
+{
+  "version": "1.0.1",
+  "description": "Hyperextensible agent harness (Rust core, Lua plugins)",
+  "homepage": "https://github.com/signalridge/mare",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/signalridge/mare/releases/download/v1.0.1/mare-v1.0.1-x86_64-pc-windows-msvc.zip",
+      "hash": "e8c0b631301525301079823fc5da51c4a553261fb9cc266a34f8a4f60c5cb9a1",
+      "extract_dir": "mare-v1.0.1-x86_64-pc-windows-msvc",
+      "bin": [
+        "mare.exe"
+      ]
+    },
+    "arm64": {
+      "url": "https://github.com/signalridge/mare/releases/download/v1.0.1/mare-v1.0.1-aarch64-pc-windows-msvc.zip",
+      "hash": "05992b729a6950df77605543fb17ddba379060bd291b5ca80d6bca50f0cfd2f0",
+      "extract_dir": "mare-v1.0.1-aarch64-pc-windows-msvc",
+      "bin": [
+        "mare.exe"
+      ]
+    }
+  },
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/signalridge/mare/releases/download/v$version/mare-v$version-x86_64-pc-windows-msvc.zip",
+        "extract_dir": "mare-v$version-x86_64-pc-windows-msvc"
+      },
+      "arm64": {
+        "url": "https://github.com/signalridge/mare/releases/download/v$version/mare-v$version-aarch64-pc-windows-msvc.zip",
+        "extract_dir": "mare-v$version-aarch64-pc-windows-msvc"
+      }
+    }
+  }
+}
